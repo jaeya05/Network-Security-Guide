@@ -1,7 +1,8 @@
 ---
 description: >-
-  This is Guide to Network Security Engineers to configure and Deploy Network
-  security protocols and systems
+  This is the Guide for Network Security Engineers to configure and Deploy
+  Network security protocols and systems
+coverY: 0
 ---
 
 # Introduction
