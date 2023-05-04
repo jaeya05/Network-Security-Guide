@@ -6,9 +6,9 @@ To configure hostname first we need to enter into system global config mode by u
 
 ```bash
 FortiGate-VM64-KVM # config system global
-FortiGate-VM64-KVM (global) # set hostname FG01-LocalLab
+FortiGate-VM64-KVM (global) # set hostname LocalLabFw01
 FortiGate-VM64-KVM (global) # end
-FG01-LocalLab #
+LocalLabFw01 #
 ```
 
 
@@ -19,7 +19,7 @@ FG01-LocalLab #
 To view general system information like last reboot reason, system uptime, Hostname, Fortigate Firewall version etc.,
 
 ```bash
-FG01-LocalLab # get system status
+LocalLabFw01 # get system status
 ```
 
 ### 2.2 Interface [Port] Troubleshoot
@@ -31,7 +31,7 @@ FG01-LocalLab # get system status
 To view all the interface configuration we can execute below mentioned command.
 
 ```bash
-FG01-LocalLab # show system interface
+LocalLabFw01 # show system interface
 ```
 
 We can use below mentioned command to view Specific port configuration
@@ -39,13 +39,13 @@ We can use below mentioned command to view Specific port configuration
 >Note: For example I've taken the First port of the Firewall. we can also check  configuration or status of any ports in the firewall 
 
 ```bash
-FG01-LocalLab # show system interface port1
+LocalLabFw01 # show system interface port1
 ```
 
 #### 2.2.2 To view Full-configuration of the interface
 
 ```bash
-FG01-LocalLab # show full-configuration system interface port1
+LocalLabFw01 # show full-configuration system interface port1
 ```
 
 #### 2.2.3 To view the Interface status
@@ -53,10 +53,10 @@ FG01-LocalLab # show full-configuration system interface port1
 This prints all the interface status in a single output.
 
 ```bash
-FG01-LocalLab # get system interface physical
+LocalLabFw01 # get system interface physical
 ```
 To check specific Interface status.
 
 ```bash
-FG01-LocalLab # get system interface physical port1
+LocalLabFw01 # get system interface physical port1
 ```
