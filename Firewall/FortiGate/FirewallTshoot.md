@@ -7,8 +7,10 @@ To view general information of the system, which display informations like last 
 ```bash
 FG01-LocalLab # get system status
 ```
+
 >OUTPUT
-```
+
+```bash
 Version: FortiGate-VM64-KVM v7.2.4,build1396,230131 (GA.F)
 Virus-DB: 1.00000(2018-04-09 18:07)
 Extended DB: 1.00000(2018-04-09 18:07)
