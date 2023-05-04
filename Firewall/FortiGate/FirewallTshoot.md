@@ -6,6 +6,9 @@ To view general information of the system, which display informations like last 
 
 ```bash
 FG01-LocalLab # get system status
+```
+>OUTPUT
+```
 Version: FortiGate-VM64-KVM v7.2.4,build1396,230131 (GA.F)
 Virus-DB: 1.00000(2018-04-09 18:07)
 Extended DB: 1.00000(2018-04-09 18:07)
@@ -17,7 +20,7 @@ APP-DB: 6.00741(2015-12-01 02:30)
 INDUSTRIAL-DB: 6.00741(2015-12-01 02:30)
 IPS Malicious URL Database: 1.00001(2015-01-01 01:01)
 IoT-Detect: 0.00000(2022-08-17 17:31)
-Serial-Number: FGVM010100134569
+Serial-Number: FGVM00000000000000
 License Status: Invalid Copy
 VM Resources: 1 CPU/1 allowed, 1993 MB RAM
 Log hard disk: Available
