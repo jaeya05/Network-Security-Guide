@@ -4,7 +4,7 @@
 
 To configure hostname first we need to enter into system global config mode by using *"config system global"* then follow the commmands to set hostname for the firewall as shown below.
 
-```bash
+```javascript
 FortiGate-VM64-KVM # config system global
 FortiGate-VM64-KVM (global) # set hostname LocalLabFw01
 FortiGate-VM64-KVM (global) # end
@@ -30,7 +30,7 @@ LocalLabFw01 # get system status
 
 To view all the interface configuration we can execute below mentioned command.
 
-```python
+```bash
 LocalLabFw01 # show system interface
 ```
 
