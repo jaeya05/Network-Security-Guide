@@ -32,7 +32,7 @@ description: >-
   2. Firewall
         
         * Fortinet
-            * [Introduction to Fortigate System](./Firewall/FortiGate/System%20and%20Interface-Tshoot_cmd.md)
+            * [Introduction to Fortigate System](./Firewall/FortiGate/Introduction%20to%20Fortigate%20System.md)
             * Routing
             * Web Filters
             * IPS
