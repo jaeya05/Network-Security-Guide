@@ -30,7 +30,7 @@ LocalLabFw01 # get system status
 
 To view all the interface configuration we can execute below mentioned command.
 
-```bash
+```python
 LocalLabFw01 # show system interface
 ```
 
