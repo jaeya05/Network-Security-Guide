@@ -4,7 +4,7 @@
 
 To configure hostname first we need to enter into system global config mode by using *"config system global"* then follow the commmands to set hostname for the firewall as shown below.
 
-```javascript
+```python
 FortiGate-VM64-KVM # config system global
 FortiGate-VM64-KVM (global) # set hostname LocalLabFw01
 FortiGate-VM64-KVM (global) # end
@@ -18,7 +18,7 @@ LocalLabFw01 #
 
 To view general system information like last reboot reason, system uptime, Hostname, Fortigate Firewall version etc.,
 
-```bash
+```python
 LocalLabFw01 # get system status
 ```
 
@@ -30,7 +30,7 @@ LocalLabFw01 # get system status
 
 To view all the interface configuration we can execute below mentioned command.
 
-```bash
+```python
 LocalLabFw01 # show system interface
 ```
 
@@ -38,13 +38,13 @@ We can use below mentioned command to view Specific port configuration
 
 >Note: For example I've taken the First port of the Firewall. we can also check  configuration or status of any ports in the firewall 
 
-```bash
+```python
 LocalLabFw01 # show system interface port1
 ```
 
 #### 2.2.2 To view Full-configuration of the interface
 
-```bash
+```python
 LocalLabFw01 # show full-configuration system interface port1
 ```
 
@@ -52,11 +52,11 @@ LocalLabFw01 # show full-configuration system interface port1
 
 This prints all the interface status in a single output.
 
-```bash
+```python
 LocalLabFw01 # get system interface physical
 ```
 To check specific Interface status.
 
-```bash
+```python
 LocalLabFw01 # get system interface physical port1
 ```
