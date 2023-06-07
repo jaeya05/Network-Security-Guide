@@ -60,3 +60,5 @@ To check specific Interface status.
 ```python
 LocalLabFw01 # get system interface physical port1
 ```
+
+
