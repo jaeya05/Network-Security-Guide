@@ -19,7 +19,7 @@ lab-mplsFw01 # diagnose debug duration <N>
 lab-mplsFw01 # >
 ```
 
->Note: "0" to unlimited (diabling the feature), default 30minutes
+>Note: "0" to unlimited (disabling the feature), default 30minutes
 
 * Filter remote peer public IP before running any debug when there is multiple tunnels
 
@@ -54,7 +54,7 @@ IKE debug without payload
 lab-mplsFw01 # diagnose debug application ike 127
 ```
 
-Diable IKE debug
+Disable IKE debug
 
 ```python
 
